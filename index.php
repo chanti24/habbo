@@ -47,7 +47,7 @@ if(isset($_POST['Username']) && isset($_POST['Password']))
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title><?php echo $Holo['name']; ?> > Haz amig@s, crea salas, diviertete.</title>
+		<title><?php echo $Holo['hololatin']; ?> > Haz amig@s, crea salas, diviertete.</title>
 		<link rel="shortcut icon" href="public/img/favicon.ico">
 		<link type="text/css" href="public/css/habbo.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet" type="text/css">
