@@ -1,0 +1,75 @@
+<?php
+/* 
+*
+*                  Yeezy IV
+*  Todos los derechos reservados a su respectivo dueño
+* 
+*          @Author: Forbi <based Totix>
+*
+*/
+
+class Conexion {
+	public function MySQL() {
+
+		// Datos del MySQL
+		$mysqld = array (
+			'host'  =>  'localhost',
+			'user'  =>  'root',
+			'pass'  =>  '',
+			'db'    =>  'holo'
+			);
+
+		// Conexión al MySQL
+		mysql_connect($mysqld['host'], $mysqld['user'], $mysqld['pass']) or die(mysql_error());
+		mysql_select_db($mysqld['db']) or die(mysql_error());
+	}
+}
+
+// Importamos la conexión
+Conexion::MySQL();
+
+// Configuración de tu Habbo web
+$Holo = array(
+
+	// Link del hotel
+	'url'       =>     'http://localhost',
+	// Link del client, por si pones adf.ly
+	'client_url'=>     'http://localhost/client',
+	// URL del logo del hotel, medidas 250 x 90
+	'logo'      =>     'http://localhost/assets/images/logo.png',
+	// Carpeta del panel
+	'panel'     =>     'housekeeping',
+    // Nombre del hotel
+	'name'      =>     'HOLOLATINO',
+    // Misión predeterminada
+    'mision'    =>     '¡Nuev@ en Hlatino!',
+    // Monedas predeterminadas
+    'monedas'   =>     '5',
+	// Rango máximo de mandatos en HK
+	'maxrank'   =>     '10',
+	// Rango minimo para entrar a la HK
+	'minhkr'    =>     '6',
+	// Facebook oficial 
+	'fb'        =>     'https://www.facebook.com/Hololatino/',
+    // Foto de perfil
+    'foto_p'    =>     '/assets/images/perfil_default.png',
+    // Portada default
+    'portada'   =>     '/assets/images/me_page.jpg',
+	// Footer de la web
+	'footer'    =>     '
+		<div style="position: absolute; width:100%;" class="footer">
+            <div id="swidth">
+               <center> <font size="2" color="white">
+<p style="line-height: 1px;">© 2017 Creado por <a href="https://www.youtube.com/c/AngelHolos" style="float:font-size:20px;" target="_blank"><font color="#a7d8df"><b>AngelHolos</b></font></a>.<a href="#" style="color: inherit;text-decoration:none;"></a> Esto no tiene nada que ver con Sulake Corp Oy. - &copy;</p>
+					
+				</font></center>
+            </div>
+        </div>',
+	// URL del avatar
+	'avatar'    =>     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYNlW3XccZhjUAWpJXWqQkQ6XlsGD8hMDb_-Mqy-QzMJJignk0NA',
+	// URL de las placas
+	'url_badges'=>     'http://localhost/swf/c_images/album1584/'
+
+	
+	);
+?>
