@@ -2,7 +2,7 @@
 <?php
 /*
 *
-*                  Yeezy IV
+*                 
 *  Todos los derechos reservados a su respectivo dueño
 *
 *          @Author: Forbi <based Totix>
