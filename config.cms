@@ -66,7 +66,7 @@ $Holo = array(
             </div>
         </div>',
 	// URL del avatar
-	'avatar'    =>     'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgm7utp2E-bo_5Aq5wgD9HZBjPoqlPoLCBGgGANbU-ukgmYxQ4AA',
+	'avatar'    =>     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYNlW3XccZhjUAWpJXWqQkQ6XlsGD8hMDb_-Mqy-QzMJJignk0NA',
 	// URL de las placas
 	'url_badges'=>     'http://localhost/swf/c_images/album1584/'
 
